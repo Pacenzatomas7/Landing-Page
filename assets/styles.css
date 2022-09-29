@@ -26,9 +26,18 @@ header {
     background: var(--primary);
     align-items: center;
     height: 100px;
-    padding: 0px 300px;
+    padding: 0px 100px;
     position: fixed;
     top: 0;
+}
+
+.menu-icon {
+    width: 45px;
+}
+
+.menu-label,
+#menu-toggle {
+    display: none;
 }
 
 header p {
@@ -53,7 +62,7 @@ header p {
 }
 
 .contact-li {
-    border: 1px solid;
+    border: 1px solid var(--tertiary);
     padding: 10px 10px;
     border-radius: 1rem;
     background: var(--tertiary);
@@ -128,7 +137,7 @@ main {
     border-radius: 10px;
     font-size: 16px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--tertiary);
 }
 
 .hero-card {
@@ -206,4 +215,131 @@ main {
 
 #info span {
     color: red;
+}
+
+/* Info cards  */
+
+.info {
+    padding: 70px 0;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.info h2 {
+    font-size: 32px;
+}
+
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.info-card {
+    width: 350px;
+    height: 450px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    background: var(--primary);
+    border-radius: 1rem;
+    gap: 20px;
+}
+
+.info-card img {
+    width: 320px;
+    border-radius: 1rem;
+}
+
+.info-card h3 {
+    font-weight: 500;
+}
+.info-card p {
+    font-size: 14px;
+}
+
+.btn-load {
+    background: var(--tertiary);
+    border: 1 px solid var(--tertiary);
+    padding: 10px 35px;
+    border-radius: 1rem;
+    color: var(--text-white);
+    cursor: pointer;
+    font-size: 16px;
+}
+/* CONTACT  */
+
+.contact {
+    padding: 40px 0;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.info-contact p {
+    color: var(--text-white);
+    font-size: 15;
+    font-weight: 300;
+    width: 80%;
+}
+
+.info-contact h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.map {
+    border-radius: 1rem;
+}
+
+
+
+/* FOOTER  */
+
+footer {
+    background: var(--primary);
+    color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 0;
+}
+
+footer a,
+footer p {
+    color: var(--text-white);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }

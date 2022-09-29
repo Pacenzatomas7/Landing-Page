@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Tomás Pacenza</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
 </head>
 <body>
     <header>
         <p>👋 Tomás Pacenza</p>
         <nav class="navbar">
+            <label for="menu-toggle" class=" menu-label">
+                <img src="./assets/img/menu.jpg" alt="Icono menú hamburguesa" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Acerca de mi</a></li>
@@ -48,6 +53,51 @@
             Espero con ansias poder aprender lo máximo de este curso y disfrutar de programar.
             </p>
         </section>
+        <hr class="hr"/>
+        <section class="info">
+            <h2>Estos son mis Proyectos!</h2>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <img class="img-cards" src="./assets/img/undraw_Innovative_re_rr5i.png" alt="">
+                    <h3>Portfolio personal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero?</p>
+                </div>
+                <div class="info-card">
+                    <img class="img-cards" src="./assets/img/undraw_Social_girl_re_kdrx.png" alt="">
+                    <h3>Aplicaciones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aperiam!</p>
+                </div>
+                <div class="info-card">
+                    <img class="img-cards" src="./assets/img/undraw_Static_website_re_x70h.png" alt="">
+                    <h3>Diseños web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, repellat.</p>
+                </div>
+            </div>
+            <button class="btn-load">Ver más</button>
+        </section>
+        <section class="contact">
+            <div class="info-contact">
+                    <h2>Contactame!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos tenetur rem quis, nulla architecto explicabo ipsum tempore qui quisquam.</p>
+                    <p >02216619895</p>
+                    <p>pacenzatomas@gmail.com</p>  
+                </div>          
+                <div class="info-map">
+                    <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.140532314175!2d-57.9389719!3d-34.9118413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32c529fe42daaa5d!2sEstadio%20UNO%20Jorge%20Luis%20Hirschi!5e0!3m2!1ses!2sar!4v1664394256492!5m2!1ses!2sar" width="290" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                </div>
+            
+        </section>
     </main>
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="https://www.instagram.com/pacenzatomas/" target="_blank">Instagram</a></li>
+                <li><a href="#">Términos de uso</a></li>
+                <li><a href="#">Trabajemos juntos</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+        <p>Portfolio realizado por <span> Tomás Pacenza</span></p>
+    </footer>
 </body>
 </html>
